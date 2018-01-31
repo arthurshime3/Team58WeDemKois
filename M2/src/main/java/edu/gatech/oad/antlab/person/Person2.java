@@ -38,6 +38,7 @@ public class Person2 {
 			while (index[temp] != null) {
 				int temp = rand.nextInt(input.length());
 			}
+			index[temp] = temp;
 			returnThis += input[temp];
 		}
 		return returnThis;

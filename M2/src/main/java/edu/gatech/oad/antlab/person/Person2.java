@@ -1,11 +1,12 @@
 package edu.gatech.oad.antlab.person;
+import java.util.*;
 
 /**
  *  A simple class for person 2
  *  returns their name and a
  *  modified string 
  *
- * @author Bob
+ * @author Sam Loop
  * @version 1.1
  */
 public class Person2 {
@@ -30,8 +31,12 @@ public class Person2 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  //Person 2 put your implementation here
-	  return null;
+		String returnThis = "";
+		List<String> letters = Arrays.asList(input.split(""));
+  		for (String letter : letters) {
+    		returnThis += letter;
+  		}
+  		return returnThis;
 	}
 	/**
 	 * Return a string rep of this object

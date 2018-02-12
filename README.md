@@ -1,2 +1,2 @@
-# Team58WeDemKois
-CS 2340
+# Team 58: We Dem Kois
+![wedemkois](wedemkois.png)
